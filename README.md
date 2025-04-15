@@ -1,7 +1,3 @@
-Below is an example README file in Markdown format for the project:
-
----
-
 # PriceScraper
 
 PriceScraper is a Python tool designed to scrape pricing data from [tgju.org](https://www.tgju.org/) at scheduled intervals. The tool collects several market indicators such as stock, gold prices, coin values, dollars, Brent Oil, tether, and Bitcoin. The scraped data is saved into a CSV file for later analysis. The tool uses threading to run the scraping process without blocking the main program.
@@ -83,8 +79,6 @@ The script will perform 5 iterations of scraping, each 60 seconds apart by defau
 - **Scraping Errors:**  
   If you encounter errors such as "Price list container not found on the page," ensure the target website has not changed its page structure. You may need to update the BeautifulSoup selectors accordingly.
 
-- **DataFrame Errors:**  
-  If you see issues like the deprecated `.append` method, ensure you are using the latest Pandas API. This version uses `pd.concat` for DataFrame updates.
 
 ## Contributing
 
